@@ -1,6 +1,10 @@
 version: v1
 description: Notify team members with Slack
 
+parameters:
+  pandas:
+    default: "We are pandas and you can too"
+
 steps:
 - name: init-workflow
   image: alpine:latest
